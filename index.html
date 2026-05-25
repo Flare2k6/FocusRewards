@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusRewards | Turn off-phone time into real rewards</title>
+    <meta
+      name="description"
+      content="FocusRewards turns focused, off-phone time into stars and real-world rewards for families."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="FocusRewards home">
+        <span class="brand-mark" aria-hidden="true">&#9733;</span>
+        <span>FocusRewards</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#mission">Mission</a>
+        <a href="index.html#child">Children</a>
+        <a href="index.html#parent">Parents</a>
+        <div class="nav-dropdown">
+          <button class="nav-drop-button" type="button" aria-expanded="false">
+            Explore <span aria-hidden="true">v</span>
+          </button>
+          <div class="nav-menu">
+            <a href="pages/about.html">About</a>
+            <a href="index.html#shop">Star Shop</a>
+            <a href="index.html#prototype">Prototype</a>
+            <a href="pages/students.html">Students</a>
+            <a href="pages/schools.html">Schools</a>
+            <a href="pages/businesses.html">Businesses</a>
+          </div>
+        </div>
+        <a class="nav-cta" href="pages/download.html">Download App</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-pad" id="home">
+        <div class="hero-copy">
+          <p class="challenge-line">Foothill Innovation Challenge 2026</p>
+          <h1>Turn off-phone time into real rewards.</h1>
+          <p class="hero-text">
+            FocusRewards helps families replace screen-time battles with a positive loop:
+            focused minutes become stars, kids request rewards, and parents approve what fits.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#loop">Preview the App</a>
+            <a class="button secondary" href="#mission">Explore the Mission</a>
+          </div>
+          <div class="trust-row" aria-label="Product highlights">
+            <span>Parent-approved</span>
+            <span>Kid-motivating</span>
+            <span>Reward-loop demo</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="FocusRewards app previews">
+          <div class="leaf-shape leaf-one"></div>
+          <div class="leaf-shape leaf-two"></div>
+          <article class="phone child-phone">
+            <div class="phone-top">
+              <span>9:41</span>
+              <span class="phone-signal">signal</span>
+            </div>
+            <div class="app-title-row">
+              <span class="app-icon">&#9733;</span>
+              <div>
+                <strong>FocusRewards</strong>
+                <small>Child Focus</small>
+              </div>
+            </div>
+            <div class="timer-ring">
+              <span>25:00</span>
+              <small>Focus Timer</small>
+            </div>
+            <div class="stats-strip">
+              <div>
+                <strong>42</strong>
+                <span>Stars</span>
+              </div>
+              <div>
+                <strong>78%</strong>
+                <span>Daily goal</span>
+              </div>
+            </div>
+            <div class="activity-card">
+              <span class="activity-dot"></span>
+              <div>
+                <strong>Outdoor reset</strong>
+                <small>Try a 15 minute bike ride</small>
+              </div>
+            </div>
+          </article>
+
+          <article class="phone parent-phone">
+            <div class="phone-top">
+              <span>Parent</span>
+              <span class="pin-lock">PIN</span>
+            </div>
+            <h3>Dashboard</h3>
+            <div class="summary-grid">
+              <div>
+                <span>Off-phone</span>
+                <strong>96 min</strong>
+              </div>
+              <div>
+                <span>Star rate</span>
+                <strong>2/min</strong>
+              </div>
+            </div>
+            <div class="approval-card">
+              <small>Pending approval</small>
+              <strong>Family Movie Night</strong>
+              <span class="static-state">Awaiting parent review</span>
+            </div>
+            <div class="cap-row">
+              <span>Daily cap</span>
+              <strong>120 stars</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="showcase section-pad" id="showcase">
+        <div class="section-heading centered">
+          <p class="section-label">App Preview</p>
+          <h2>One reward loop, two trusted views.</h2>
+          <p>
+            Flip through the core prototype screens: child focus, parent controls, and the Star
+            Shop. This gives the page more movement and makes the app story easier to see.
+          </p>
+        </div>
+
+        <div class="carousel" aria-label="FocusRewards app screen carousel">
+          <button class="carousel-arrow prev" type="button" aria-label="Previous slide">&#8249;</button>
+          <div class="carousel-track">
+            <article class="carousel-slide active">
+              <div class="mock-screen child-screen">
+                <div class="mock-top">
+                  <span class="app-icon">&#9733;</span>
+                  <strong>Child Focus</strong>
+                </div>
+                <div class="mock-ring">25:00</div>
+                <div class="mock-row">
+                  <span>Star balance</span>
+                  <strong>42</strong>
+                </div>
+                <div class="mock-row">
+                  <span>Daily progress</span>
+                  <strong>78%</strong>
+                </div>
+              </div>
+              <div class="slide-copy">
+                <h3>Child Focus screen</h3>
+                <p>Kids start a focus timer, earn stars, and see their daily progress move.</p>
+              </div>
+            </article>
+
+            <article class="carousel-slide">
+              <div class="mock-screen parent-screen">
+                <div class="mock-top">
+                  <span class="app-icon">&#9733;</span>
+                  <strong>Parent Dashboard</strong>
+                </div>
+                <div class="mock-row">
+                  <span>Star rate</span>
+                  <strong>2/min</strong>
+                </div>
+                <div class="mock-row">
+                  <span>Daily cap</span>
+                  <strong>120</strong>
+                </div>
+                <div class="mock-row">
+                  <span>Pending request</span>
+                  <strong>Movie Night</strong>
+                </div>
+              </div>
+              <div class="slide-copy">
+                <h3>Parent controls</h3>
+                <p>Parents manage star rules, review progress, and approve reward requests.</p>
+              </div>
+            </article>
+
+            <article class="carousel-slide">
+              <div class="mock-screen shop-screen">
+                <div class="mock-top">
+                  <span class="app-icon">&#9733;</span>
+                  <strong>Star Shop</strong>
+                </div>
+                <div class="shop-mini-card">Family Movie Night <span>Available</span></div>
+                <div class="shop-mini-card">Smoothie Gift Card <span>Pending</span></div>
+                <div class="shop-mini-card">Bike Shop Credit <span>Approved</span></div>
+              </div>
+              <div class="slide-copy">
+                <h3>Star Shop rewards</h3>
+                <p>Rewards feel real, while parents stay in charge before anything is redeemed.</p>
+              </div>
+            </article>
+          </div>
+          <button class="carousel-arrow next" type="button" aria-label="Next slide">&#8250;</button>
+        </div>
+
+        <div class="carousel-dots" aria-label="Carousel controls">
+          <button class="active" type="button" aria-label="Show Child Focus slide"></button>
+          <button type="button" aria-label="Show Parent Dashboard slide"></button>
+          <button type="button" aria-label="Show Star Shop slide"></button>
+        </div>
+      </section>
+
+      <section class="problem section-pad" id="problem">
+        <div class="section-heading">
+          <p class="section-label">The Problem</p>
+          <h2>Families need more than screen-time punishment.</h2>
+        </div>
+        <div class="two-column">
+          <p>
+            Parents want healthier digital habits, but constant blocking can turn into a fight.
+            Kids need a reason to choose better replacement habits, not just another rule.
+          </p>
+          <p>
+            FocusRewards gives families a shared system: kids can see progress, parents can
+            guide the reward economy, and off-phone time becomes something concrete.
+          </p>
+        </div>
+      </section>
+
+      <section class="loop section-pad" id="loop">
+        <div class="section-heading centered">
+          <p class="section-label">The Solution</p>
+          <h2>The FocusRewards loop</h2>
+          <p>
+            A simple demo flow that shows exactly how focused time turns into parent-approved
+            rewards.
+          </p>
+        </div>
+        <div class="loop-flow" aria-label="FocusRewards reward loop">
+          <div class="loop-step">
+            <span>1</span>
+            <strong>Focus minutes</strong>
+            <p>A child starts the Focus Timer and spends time away from scrolling.</p>
+          </div>
+          <div class="loop-step">
+            <span>2</span>
+            <strong>Earn stars</strong>
+            <p>Stars grow based on the parent-set star rate and daily cap.</p>
+          </div>
+          <div class="loop-step">
+            <span>3</span>
+            <strong>Shop request</strong>
+            <p>The child requests rewards like a smoothie gift card or movie night.</p>
+          </div>
+          <div class="loop-step">
+            <span>4</span>
+            <strong>Parent approval</strong>
+            <p>The parent reviews progress, approves the reward, and the balance updates.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience child-experience section-pad" id="child">
+        <div class="experience-copy">
+          <p class="section-label">Child Experience</p>
+          <h2>Progress kids can feel.</h2>
+          <p>
+            The child view keeps the reward loop simple: start a timer, watch stars grow,
+            check daily progress, and choose activities based on age and interests.
+          </p>
+          <ul class="feature-list">
+            <li>Child Focus screen with live timer</li>
+            <li>Star balance and daily progress</li>
+            <li>Activity suggestions for healthier replacement habits</li>
+            <li>Role switching between child and parent views</li>
+          </ul>
+        </div>
+        <div class="panel app-panel">
+          <div class="screen-header">
+            <span class="app-icon">&#9733;</span>
+            <div>
+              <strong>Child Focus</strong>
+              <small>Today: 78% complete</small>
+            </div>
+          </div>
+          <div class="wide-progress">
+            <span style="width: 78%"></span>
+          </div>
+          <div class="reward-balance">
+            <span>&#9733;</span>
+            <div>
+              <strong>42 stars</strong>
+              <small>18 more until Family Movie Night</small>
+            </div>
+          </div>
+          <div class="activity-list">
+            <button type="button">Walk outside for 10 minutes</button>
+            <button type="button">Bike ride before dinner</button>
+            <button type="button">Draw a reward badge</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience parent-experience section-pad" id="parent">
+        <div class="panel dashboard-panel">
+          <div class="dashboard-top">
+            <div>
+              <strong>Parent Dashboard</strong>
+              <small>PIN protected</small>
+            </div>
+            <span class="status-pill">Safe controls</span>
+          </div>
+          <div class="dashboard-metrics">
+            <div>
+              <span>Screen summary</span>
+              <strong>2h 10m</strong>
+            </div>
+            <div>
+              <span>Off-phone</span>
+              <strong>96m</strong>
+            </div>
+            <div>
+              <span>Pending</span>
+              <strong>2</strong>
+            </div>
+          </div>
+          <label class="control-row">
+            <span>Star rate</span>
+            <input type="range" min="1" max="5" value="2" />
+            <strong>2/min</strong>
+          </label>
+          <label class="control-row">
+            <span>Daily cap</span>
+            <input type="range" min="60" max="200" value="120" />
+            <strong>120</strong>
+          </label>
+          <div class="approval-card large">
+            <small>Redemption request</small>
+            <strong>Bike shop credit</strong>
+            <span class="static-state">Pending parent decision</span>
+          </div>
+        </div>
+        <div class="experience-copy">
+          <p class="section-label">Parent Experience</p>
+          <h2>Motivation with guardrails.</h2>
+          <p>
+            Parents stay in control of the reward economy with star rate settings, daily cap
+            controls, child progress, and approval states before a reward is redeemed.
+          </p>
+          <ul class="feature-list">
+            <li>Parent-created rewards and gift card-style rewards</li>
+            <li>Redemption requests with pending and approved states</li>
+            <li>Star rate controls and daily cap controls</li>
+            <li>Parent PIN/sign-in protection planned for secure access</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="shop section-pad" id="shop">
+        <div class="section-heading">
+          <p class="section-label">Star Shop</p>
+          <h2>Rewards that feel real.</h2>
+          <p>
+            Sample reward cards mirror the app prototype: parent-created family rewards,
+            gift card-style rewards, and clear redemption states.
+          </p>
+        </div>
+        <div class="reward-grid">
+          <article class="reward-card">
+            <span class="reward-icon">&#9733;</span>
+            <h3>Family Movie Night</h3>
+            <p>60 stars</p>
+            <button type="button" data-status="Approved" data-reward="Family Movie Night">Approved</button>
+          </article>
+          <article class="reward-card">
+            <span class="reward-icon yellow">&#9733;</span>
+            <h3>Smoothie Gift Card</h3>
+            <p>80 stars</p>
+            <button type="button" data-status="Approved" data-reward="Smoothie Gift Card">Approved</button>
+          </article>
+          <article class="reward-card">
+            <span class="reward-icon blue">&#9733;</span>
+            <h3>Bike Shop Credit</h3>
+            <p>120 stars</p>
+            <button type="button" data-status="Approved" data-reward="Bike Shop Credit">Approved</button>
+          </article>
+          <article class="reward-card">
+            <span class="reward-icon coral">&#9733;</span>
+            <h3>Later Bedtime</h3>
+            <p>45 stars</p>
+            <button type="button" data-status="Approved" data-reward="Later Bedtime">Approved</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="business section-pad" id="business">
+        <div class="business-card">
+          <div>
+            <p class="section-label">Business Model</p>
+            <h2>A family subscription product with a clear roadmap.</h2>
+          </div>
+          <div class="business-points">
+            <p>
+              Parents are the paying customer. The subscription gives families access to the
+              reward loop, parent dashboard, Star Shop, settings, and child progress views.
+            </p>
+            <p>
+              Future upgrades include Firebase, real usage tracking, a secure star ledger,
+              stronger parent sign-in protection, and gift card API partners.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="prototype section-pad" id="prototype">
+        <div class="section-heading centered">
+          <p class="section-label">Prototype Demo</p>
+          <h2>Built to show the full reward loop for judging.</h2>
+          <p>
+            The current prototype uses local seeded demo state. Real iOS/Android screen-time
+            APIs, Firebase sync, and production tracking are planned later.
+          </p>
+        </div>
+        <div class="demo-board">
+          <button class="demo-stage active" type="button" data-stage="1" aria-expanded="true">
+            <span>1</span>
+            <strong>Timer started</strong>
+            <small>Child begins a focused session.</small>
+            <em class="stage-more">The child opens the Focus screen, starts the timer, and begins earning credit for off-phone time.</em>
+          </button>
+          <button class="demo-stage" type="button" data-stage="2" aria-expanded="false">
+            <span>2</span>
+            <strong>Stars earned</strong>
+            <small>Balance updates using demo rules.</small>
+            <em class="stage-more">Stars are calculated from the parent-set star rate while the daily cap keeps rewards fair.</em>
+          </button>
+          <button class="demo-stage" type="button" data-stage="3" aria-expanded="false">
+            <span>3</span>
+            <strong>Reward requested</strong>
+            <small>Star Shop creates a redemption request.</small>
+            <em class="stage-more">The child chooses a reward, such as Family Movie Night or a smoothie gift card, and sends it to the parent dashboard.</em>
+          </button>
+          <button class="demo-stage" type="button" data-stage="4" aria-expanded="false">
+            <span>4</span>
+            <strong>Parent approves</strong>
+            <small>Approval updates the child view.</small>
+            <em class="stage-more">The parent reviews the request and progress summary, then the child sees the updated reward state.</em>
+          </button>
+        </div>
+        <a
+          class="button primary demo-button"
+          href="#"
+          data-replit-url="https://foothill-innovation-challenge-2026-01-child-home-focu--keioashj.replit.app"
+          target="_blank"
+          rel="noopener"
+        >
+          Open Live Replit Demo
+        </a>
+      </section>
+
+      <section class="mission section-pad" id="mission">
+        <div class="mission-copy">
+          <p class="section-label">Mission</p>
+          <h2>Less scrolling. More focus. Real-world rewards families can trust.</h2>
+          <p>
+            FocusRewards is designed to make better digital habits feel achievable. Instead of
+            turning screen time into a daily argument, families get a shared system that rewards
+            focus, encourages real-world activity, and keeps parents in the approval loop.
+          </p>
+        </div>
+        <div class="mission-badges" aria-label="FocusRewards goals">
+          <span>Motivate kids</span>
+          <span>Support parents</span>
+          <span>Encourage activity</span>
+          <span>Build trust</span>
+        </div>
+      </section>
+
+      <section class="final-cta section-pad">
+        <h2>Ready to preview FocusRewards?</h2>
+        <p>
+          The app download is not live yet, but the website can still show the product story,
+          prototype flow, and roadmap clearly for the challenge.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="pages/download.html">View Download Preview</a>
+          <a class="button secondary" href="#shop">See Star Shop</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">&#9733;</span>
+        <span>FocusRewards</span>
+      </div>
+      <p>Parent-child digital wellbeing app prototype for Foothill Innovation Challenge 2026.</p>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
